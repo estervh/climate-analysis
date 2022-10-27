@@ -1,3 +1,5 @@
+"""Climate analysis tools"""
+
 import sys
 import temp_conversion
 import signal
@@ -25,3 +27,5 @@ for line in climate_data:
             kelvin = temp_conversion.fahr_to_kelvin(fahr)
 
             print(str(celsius)+", "+str(kelvin))
+
+TODO(ester.valero): Add call to process rainfall
